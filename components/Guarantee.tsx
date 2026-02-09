@@ -34,56 +34,76 @@ export default function Guarantee() {
             </h2>
 
             <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-gray-100">
-              <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                We guarantee a minimum of <span className="font-bold text-primary">8 qualified appointments per month</span>.
-                If we don't hit the minimum, you pay only for the appointments we delivered.
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-6 text-left mb-8">
-                <div className="flex items-start gap-3">
-                  <div className="bg-accent/10 rounded-full p-2 mt-1">
-                    <CheckCircle className="w-5 h-5 text-accent" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 mb-1">No Show? No Charge</div>
-                    <p className="text-gray-600 text-sm">We only charge for appointments that show up to the call</p>
+              {/* Guarantee Points */}
+              <div className="space-y-6 mb-8">
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-7 h-7 text-accent flex-shrink-0 mt-1" />
+                  <div className="text-left">
+                    <div className="font-bold text-gray-900 text-lg mb-1">
+                      Minimum 8 qualified appointments per month
+                    </div>
+                    <p className="text-gray-600">
+                      If we don't hit 8, you only pay for what we delivered
+                    </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <div className="bg-accent/10 rounded-full p-2 mt-1">
-                    <CheckCircle className="w-5 h-5 text-accent" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 mb-1">Not Qualified? Refund</div>
-                    <p className="text-gray-600 text-sm">If they don't meet your criteria, we refund you immediately</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="bg-accent/10 rounded-full p-2 mt-1">
-                    <CheckCircle className="w-5 h-5 text-accent" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-900 mb-1">Decision-Makers Only</div>
-                    <p className="text-gray-600 text-sm">Every call is with someone who has budget and authority</p>
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-7 h-7 text-accent flex-shrink-0 mt-1" />
+                  <div className="text-left">
+                    <div className="font-bold text-gray-900 text-lg mb-1">
+                      Only pay for calls that show up
+                    </div>
+                    <p className="text-gray-600">
+                      No-show? We refund you immediately — no questions asked
+                    </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <div className="bg-accent/10 rounded-full p-2 mt-1">
-                    <CheckCircle className="w-5 h-5 text-accent" />
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-7 h-7 text-accent flex-shrink-0 mt-1" />
+                  <div className="text-left">
+                    <div className="font-bold text-gray-900 text-lg mb-1">
+                      Not qualified? Immediate refund
+                    </div>
+                    <p className="text-gray-600">
+                      If they don't meet your criteria, we refund the appointment fee
+                    </p>
                   </div>
-                  <div>
-                    <div className="font-bold text-gray-900 mb-1">Cancel Anytime</div>
-                    <p className="text-gray-600 text-sm">No long-term contracts. Month-to-month only</p>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-7 h-7 text-accent flex-shrink-0 mt-1" />
+                  <div className="text-left">
+                    <div className="font-bold text-gray-900 text-lg mb-1">
+                      Decision-makers only
+                    </div>
+                    <p className="text-gray-600">
+                      Every call is with someone who has budget and authority to buy
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <CheckCircle className="w-7 h-7 text-accent flex-shrink-0 mt-1" />
+                  <div className="text-left">
+                    <div className="font-bold text-gray-900 text-lg mb-1">
+                      Cancel anytime
+                    </div>
+                    <p className="text-gray-600">
+                      No long-term contracts — month-to-month only
+                    </p>
                   </div>
                 </div>
               </div>
 
+              {/* We Only Win Callout */}
               <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-6 mb-8">
-                <p className="text-lg font-bold text-gray-900 text-center">
-                  We only win when you win. That's the ReIgnite promise.
+                <p className="text-lg font-bold text-gray-900 text-center mb-2">
+                  We only win when you win.
+                </p>
+                <p className="text-sm text-gray-700 text-center">
+                  Our revenue depends on booked, qualified calls showing up — not empty promises.
                 </p>
               </div>
 

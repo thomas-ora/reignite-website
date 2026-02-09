@@ -6,18 +6,18 @@ import { Target, Clock, Shield } from "lucide-react";
 const promises = [
   {
     icon: Target,
-    title: "8-15 Qualified Appointments",
-    description: "Minimum guaranteed appointments per month with decision-makers ready to buy",
+    title: "No Prospecting. No Chasing. No Admin.",
+    description: "We handle outreach, list building, qualification, and booking — you just show up to calls with ready-to-buy prospects",
   },
   {
     icon: Clock,
-    title: "Zero Time Investment",
-    description: "We handle outreach, qualification, and scheduling—you just show up to calls",
+    title: "Decision-Makers Only",
+    description: "Every call is with someone who has budget, authority, and an active need — not tire-kickers or researchers",
   },
   {
     icon: Shield,
     title: "Pay on Results",
-    description: "Only pay for qualified appointments that show up. No show? No charge.",
+    description: "Only pay for qualified appointments that show up. No show? No charge. Don't hit 8 appointments? You don't pay the minimum.",
   },
 ];
 
@@ -50,7 +50,9 @@ export default function ResultsPromise() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1, duration: 0.6 }}
-                className="group bg-white rounded-2xl p-8 border border-gray-100 hover:border-primary/30 hover:shadow-xl transition-all duration-300"
+                className={`group bg-white rounded-2xl p-8 border-2 hover:shadow-xl transition-all duration-300 ${
+                  index === 2 ? 'border-accent/30 bg-accent/5' : 'border-gray-100 hover:border-primary/30'
+                }`}
               >
                 <div className="bg-primary/10 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <Icon className="w-8 h-8 text-primary" />

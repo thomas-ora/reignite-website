@@ -4,6 +4,7 @@ import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
 import Guarantee from "@/components/Guarantee";
 import WhoThisIsFor from "@/components/WhoThisIsFor";
+import CalendlyPreFrame from "@/components/CalendlyPreFrame";
 import CalendlyEmbed from "@/components/CalendlyEmbed";
 import Footer from "@/components/Footer";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <Guarantee />
       <WhoThisIsFor />
+      <CalendlyPreFrame />
       <CalendlyEmbed />
       <Footer />
     </main>

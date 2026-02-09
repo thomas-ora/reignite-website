@@ -5,11 +5,11 @@ import { CheckCircle2, XCircle } from "lucide-react";
 
 const idealFor = [
   "B2B coaches and consultants",
-  "Revenue: $500k-$10M annually",
+  "Typically working with consultants at ~$500k+/year",
   "Proven offer with client results",
   "Ready to scale predictably",
   "Decision-maker access critical",
-  "High-ticket services ($5k+ deals)",
+  "Best suited for $5k+ services (where one client covers acquisition costs)",
 ];
 
 const notFor = [

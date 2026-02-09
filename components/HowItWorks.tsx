@@ -7,8 +7,8 @@ const steps = [
   {
     number: "01",
     icon: Phone,
-    title: "Discovery Call",
-    description: "We analyze your offer, ideal client, and qualification criteria on a 30-minute call",
+    title: "Fit & Qualification Call",
+    description: "We assess your offer, ideal client profile, and buying signals to ensure we can realistically deliver 8-15 qualified appointments per month",
   },
   {
     number: "02",
@@ -101,13 +101,14 @@ export default function HowItWorks() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.6, duration: 0.6 }}
-          className="mt-12 text-center"
+          className="mt-16 text-center"
         >
-          <div className="inline-flex items-center gap-2 bg-white px-6 py-3 rounded-full shadow-md border border-gray-100">
-            <div className="w-3 h-3 rounded-full bg-accent animate-pulse"></div>
-            <span className="text-sm font-medium text-gray-700">
-              Typical Timeline: 3-4 weeks from call to first appointments
-            </span>
+          <div className="inline-flex items-center gap-4 bg-white px-8 py-4 rounded-full shadow-lg border-2 border-accent/20">
+            <div className="w-4 h-4 rounded-full bg-accent animate-pulse"></div>
+            <div className="text-left">
+              <div className="text-sm font-bold text-gray-900">Typical Timeline</div>
+              <div className="text-sm text-gray-600">3-4 weeks from call to first appointments</div>
+            </div>
           </div>
         </motion.div>
       </div>

@@ -129,7 +129,7 @@ export default function CaseStudiesPage() {
                     target="_blank"
                     className="btn-primary w-full justify-center inline-flex items-center gap-2"
                   >
-                    Get Similar Results
+                    See If You Qualify
                     <ArrowRight className="w-5 h-5" />
                   </Link>
                 </div>
@@ -156,7 +156,7 @@ export default function CaseStudiesPage() {
               Book a discovery call to see how we can fill your calendar with qualified appointments
             </p>
             <Link href={CALENDLY_URL} target="_blank" className="btn-primary inline-flex items-center gap-2">
-              Book Your Discovery Call
+              See If You Qualify
               <ArrowRight className="w-5 h-5" />
             </Link>
           </motion.div>

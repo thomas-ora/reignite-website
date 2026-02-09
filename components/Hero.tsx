@@ -45,7 +45,8 @@ export default function Hero() {
               className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
             >
               Get 8-15 Qualified Discovery Calls{" "}
-              <span className="text-primary">Every Month—Guaranteed</span>
+              <span className="block mt-2">Every Month.</span>
+              <span className="block text-primary mt-4 text-4xl lg:text-5xl">Guaranteed.</span>
             </motion.h1>
 
             {/* Subheadline */}
@@ -55,8 +56,8 @@ export default function Hero() {
               transition={{ delay: 0.4, duration: 0.6 }}
               className="text-xl text-gray-600 mb-8 leading-relaxed"
             >
-              We handle your entire client acquisition process so you can focus on
-              delivering results. Pay only for qualified appointments that show up.
+              We build and run your outbound acquisition system end-to-end — so you only
+              show up to pre-qualified calls with decision-makers who have budget and authority.
             </motion.p>
 
             {/* CTA Button */}
@@ -67,7 +68,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 items-start sm:items-center"
             >
               <Link href={CALENDLY_URL} target="_blank" className="btn-primary inline-flex items-center gap-2">
-                Book Your Discovery Call
+                See If You Qualify
                 <ArrowRight className="w-5 h-5" />
               </Link>
 
@@ -83,7 +84,7 @@ export default function Hero() {
                     MT
                   </div>
                 </div>
-                <span className="font-medium">Join 40+ B2B consultants scaling with ReIgnite</span>
+                <span className="font-medium">Trusted by 40+ B2B consultants • Avg. 95% show-up rate</span>
               </div>
             </motion.div>
 
