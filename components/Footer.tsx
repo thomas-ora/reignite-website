@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Linkedin } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,7 +15,7 @@ export default function Footer() {
           </div>
 
           {/* Links */}
-          <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm">
+          <div className="flex flex-wrap justify-center gap-6 mb-6 text-sm">
             <Link href="/case-studies" className="text-gray-400 hover:text-white transition-colors">
               Case Studies
             </Link>
@@ -23,6 +24,19 @@ export default function Footer() {
             </Link>
             <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
               Terms of Service
+            </Link>
+          </div>
+
+          {/* Social */}
+          <div className="mb-8">
+            <Link
+              href="https://www.linkedin.com/in/thomaszacharywillis/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-700 text-gray-400 text-sm transition-all duration-200 hover:border-[#0A66C2] hover:text-[#0A66C2] hover:bg-[#0A66C2]/10"
+            >
+              <Linkedin className="w-4 h-4" />
+              Connect on LinkedIn
             </Link>
           </div>
 
