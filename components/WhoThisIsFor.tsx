@@ -100,15 +100,9 @@ export default function WhoThisIsFor() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mt-12 text-center"
         >
-          <p className="text-lg text-gray-600 mb-4">
+          <p className="text-lg text-gray-600">
             If you're in the left column, let's talk.
           </p>
-          <div className="inline-flex items-center gap-2 bg-primary/10 px-6 py-3 rounded-full">
-            <div className="w-3 h-3 rounded-full bg-accent animate-pulse"></div>
-            <span className="text-sm font-medium text-gray-700">
-              We only work with 20 clients at a time to ensure quality
-            </span>
-          </div>
         </motion.div>
       </div>
     </section>
