@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ReIgnite Acquisition | Automated Client Acquisition for B2B Consultants",
+  title: "ReIgnite Acquisition | Guaranteed B2B Discovery Calls",
   description: "Get 8-15 qualified discovery calls every month, guaranteed. Done-for-you client acquisition for B2B coaches and consultants. Pay only for results.",
   keywords: ["B2B lead generation", "client acquisition", "appointment setting", "B2B consultants", "coaching leads", "qualified appointments"],
   authors: [{ name: "ReIgnite Acquisition" }],
